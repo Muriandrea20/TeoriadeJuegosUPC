@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="theme.css" type="text/css">
+  <link rel="icon" href="images/android-icon-192x192.png"> </head>
+
+<body style="background-image: url('images/imagen.PNG');">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">#INICIO</a>
+      <a class="navbar-brand" href="aplicaciones.html">#APLICACIONES</a>
+      <a class="navbar-brand" href="generar.html">#GENERAR</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent"> </button>
+      <div class="collapse navbar-collapse text-center justify-content-center" id="navbar2SupportedContent"> </div>
+    </div>
+  </nav>
+  <div class="p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="col-md-12 py-4">
+            <div class="col-md-12 p-2"></div>
+          </div>
+        </div>
+        <div class="col-md-6 p-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-capitalize">
+          <h3 class="display-1 text-primary text-center">eL DILEMA DEL REO</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-left">CONTEXTO</h1>
+          <p class="paragraph-5 text-light text-left">Se encuentran detenidos dos personas por un delito de robo y la policía sabe que también ha habido un herido por arma de fuego, pero no sabe cuál de los dos detenidos ha sido el culpable</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-left">REGLAS</h1>
+          <p class="paragraph-5 text-light text-left">AMBOS CALLAN : Condena de 1 años: (-1, -1).
+            <br>AMBOS CONFIESAN : Condena de 5 años de cárcel para cada uno (-5, -5)
+            <br>UNO CONFIESA OTRO CALLA :Se liberaal reo al confesar, mientras que el prisionero que calló incrementa su condena en 10 años : posibilidades (-10, 0) y (0, -10).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"> </div>
+        <div class="col-md-4"> </div>
+        <div class="col-md-4"> </div>
+      </div>
+    </div>
+  </div>
+  <div class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"> </div>
+      </div>
+    </div>
+  </div>
+  <div class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"> </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-bottom bg-dark">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent"> </button>
+      <div class="collapse navbar-collapse text-center justify-content-center" id="navbar2SupportedContent"> </div>
+    </div>
+  </nav>
+  <div class="p-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-left">APLICACIÓN EQUILIBRIO DE NASH</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 bg-secondary">
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="text-primary border-dark border">REO 1/REO 2</th>
+                <th class="text-primary border border-dark">CONFIESA</th>
+                <th class="text-primary border-dark border">CALLA</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-primary border border-dark">CONFIESA</td>
+                <td class="text-white">-1,-1</td>
+                <td class="text-white">0,-10</td>
+              </tr>
+              <tr>
+                <td class="text-primary border border-dark">CALLA</td>
+                <td class="text-white">-10,0</td>
+                <td class="text-white">-5,5</td>
+              </tr>
+              <tr></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="text-left text-primary">ESTRATÉGIA DOMINANTE</h3>
+          <p class="paragraph-5 text-light text-left">Estrategia que siempre proporciona una mayor utilidad a un jugador, independientemente de la estrategia del otro jugador. Equilibrio de Nash en "Estrategias Dominadas" = {(Confesar, Confesar)}&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6"></div>
+        <div class="col-md-6"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 10px;right:10px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:250px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;
+    <img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16">
+  </pingendo>
+</body>
+
+</html>
